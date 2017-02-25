@@ -1,6 +1,7 @@
 wercker-step-install-hub
 ============================
 
+[![wercker status](https://app.wercker.com/status/408eca131fe6bc46d12e6541265114ba/m "wercker status")](https://app.wercker.com/project/bykey/408eca131fe6bc46d12e6541265114ba)
 
 ## Usage
 
