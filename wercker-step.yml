@@ -1,0 +1,16 @@
+name: install-hub
+description: install hub and setup git config
+version: 0.0.1
+properties:
+  version:
+    type: string
+    required: true
+  user_email:
+    type: string
+    required: true
+  user_name:
+    type: string
+    required: true
+  github_token:
+    type: string
+    required: true
