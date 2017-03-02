@@ -3,7 +3,7 @@ USER_EMAIL="$WERCKER_INSTALL_HUB_USER_EMAIL"
 USER_NAME="$WERCKER_INSTALL_HUB_USER_NAME"
 GITHUB_TOKEN="$WERCKER_INSTALL_HUB_GITHUB_TOKEN"
 
-wget https://github.com/github/hub/releases/download/${VERSION}/hub-linux-amd64-${VERSION}.tgz
+wget https://github.com/github/hub/releases/download/v${VERSION}/hub-linux-amd64-${VERSION}.tgz
 tar zxvf hub-linux-amd64-${VERSION}.tgz
 rm hub-linux-amd64-${VERSION}.tgz
 ./hub-linux-amd64-${VERSION}/install
